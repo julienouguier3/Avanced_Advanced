@@ -10,6 +10,11 @@ import edu.campusnum.visualsort.model.ObservableArray;
  */
 public class BubbleSort implements SortAlgorithm{
     @Override
+    public void sort(ObservableArray array, int d, int f) {
+
+    }
+
+    @Override
     public void sort(ObservableArray array) {
         int n = array.getLength();
         int i, j;
@@ -25,5 +30,10 @@ public class BubbleSort implements SortAlgorithm{
             if (!swapped)
                 break;
         }
+    }
+
+    @Override
+    public void triFusion(ObservableArray array) {
+
     }
 }

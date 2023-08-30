@@ -1,6 +1,5 @@
 package edu.campusnum.visualsort.model;
 
-import javax.swing.*;
 import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -93,6 +92,11 @@ public class SortState {
         public ArraySlice slice(int start, int count){
             assertInbound(start);
             return new ArraySlice(this.start + start, count);
+        }
+
+        @Override
+        public void set(int k, int i) {
+
         }
 
         /**

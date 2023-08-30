@@ -10,5 +10,9 @@ import edu.campusnum.visualsort.model.ObservableArray;
  */
 public interface SortAlgorithm {
 
+    void sort(ObservableArray array, int d, int f);
+
     public void sort(ObservableArray array);
+
+    void triFusion(ObservableArray array);
 }

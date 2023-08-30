@@ -21,6 +21,8 @@ public interface ObservableArray extends Iterable<Integer> {
      */
     public int get(int p);
 
+    void set(int k, int i);
+
     /**
      * Swap value at given position
      * @param left
